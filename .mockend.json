@@ -1,14 +1,65 @@
 {
 	"UserSnakeCase": {
 		"first_name": "string",
-		"last_name": "string"
+		"last_name": "string",
+		"created_on": "string",
+		"updated_on": "string",
+		"username": "string",
+		"password": "string",
+		"primary_phone": "string",
+		"primary_email": "string",
+		"annual_income": "int",
+		"birthdate": "string",
+		"active": "boolean"
 	},
 	"UserCamelCase": {
 		"firstName": "string",
-		"lastName": "string"
+		"lastName": "string",
+		"createdOn": "string",
+		"updatedOn": "string",
+		"username": "string",
+		"password": "string",
+		"phone": "string",
+		"email": "string",
+		"annualIncome": "int",
+		"birthdate": "string",
+		"active": "boolean"
 	},
 	"UserMixedCase": {
 		"first_name": "string",
-		"lastName": "string"
+		"lastName": "string",
+		"created_on": "string",
+		"updatedOn": "string",
+		"username": "string",
+		"password": "string",
+		"primary_phone": "string",
+		"email": "string",
+		"annual_income": "int",
+		"birthdate": "string",
+		"active": "boolean"
+	},
+	"AddressSnakeCase": {
+		"address_line_1": "string",
+		"address_line_2": "string",
+		"city": "string",
+		"state_code": "string",
+		"postal_code": "string",
+		"user": "UserSnakeCase"
+	},
+	"AddressCamelCase": {
+		"addressLine1": "string",
+		"addressLine2": "string",
+		"city": "string",
+		"stateCode": "string",
+		"postalCode": "string",
+		"user": "UserCamelCase"
+	},
+	"AddressMixedCase": {
+		"address_line_1": "string",
+		"addressLine2": "string",
+		"city": "string",
+		"state_code": "string",
+		"postalCode": "string",
+		"user": "UserMixedCase"
 	}
 }
