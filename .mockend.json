@@ -1,0 +1,14 @@
+{
+	"UserSnakeCase": {
+		"first_name": "string",
+		"last_name": "string"
+	},
+	"UserCamelCase": {
+		"firstName": "string",
+		"lastName": "string"
+	},
+	"UserMixedCase": {
+		"first_name": "string",
+		"lastName": "string"
+	}
+}
